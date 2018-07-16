@@ -8,7 +8,4 @@ class Point {
         this.y = aY;
     }
 
-    clone() : Point {
-        return new Point( this.x, this.y );
-    }
 }
